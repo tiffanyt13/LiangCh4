@@ -1,0 +1,83 @@
+import java.util.*;
+public class Madlib {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+
+		System.out.print("Enter an adjective: ");
+		String s1 = input.nextLine();
+
+		System.out.print("Enter a noun:  ");
+		String s2 = input.nextLine();
+		
+		System.out.print("Enter another adjective: ");
+		String s3 = input.nextLine();
+
+		System.out.print("Enter another verb:  ");
+		String s4 = input.nextLine();
+		
+		System.out.print("Enter another verb: ");
+		String s5 = input.nextLine();
+
+		System.out.print("Enter another verb:  ");
+		String s6 = input.nextLine();
+		
+		System.out.print("Enter a plural noun: ");
+		String s7 = input.nextLine();
+
+		System.out.print("Enter another verb:  ");
+		String s8 = input.nextLine();
+		
+		System.out.print("Enter an -ing verb: ");
+		String s9 = input.nextLine();
+
+		System.out.print("Enter another noun:  ");
+		String s10 = input.nextLine();
+		
+		System.out.print("Enter another verb: ");
+		String s11 = input.nextLine();
+
+		System.out.print("Enter another adjective:  ");
+		String s12 = input.nextLine();
+		
+		System.out.print("Enter an -ing verb: ");
+		String s13 = input.nextLine();
+
+		System.out.print("Enter a adjective:  ");
+		String s14 = input.nextLine();
+		
+		System.out.print("Enter a noun-place: ");
+		String s15 = input.nextLine();
+
+		System.out.print("Enter a plural noun-animals:  ");
+		String s16 = input.nextLine();
+		
+		System.out.print("Enter another plural noun-animals:  ");
+		String s17 = input.nextLine();
+		
+		System.out.print("Enter another -ing verb:  ");
+		String s18 = input.nextLine();
+		
+		System.out.print("Enter another plural noun-food:  ");
+		String s19 = input.nextLine();
+		
+		String s20 =("My family and I are going camping near a " + s1 + " " +  s2  + " this summer. Camping is " + s3 + " because you get to " + s4 + " and " + s5 + " outside.");
+		System.out.println(s20);
+		
+		String s21 = ("When we " + s6 + " to the campground, we set up our " + s7 + " where we will " + s8 + " at night." );
+		System.out.println(s21);
+		
+		String s22 = ("We like to go " + s9 + "in the " + s10 + " , hoping to " + s11 + " some " + s12 + " fish for dinner.");
+		System.out.println(s22);
+		
+		String s23 = ("We also go " + s13 + " in the "+ s14 + " " + s15 + ", hoping to spot wildlife like " + s16 + " or " + s17 + ".");
+		System.out.println(s23);
+		
+		String s24 = ("My favorite part about camping is " + s18  + " " +  s19 + " over the campfire.");
+		System.out.println(s24);
+		
+		input.close();
+	}
+
+}
