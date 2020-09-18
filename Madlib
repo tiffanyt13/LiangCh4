@@ -4,6 +4,8 @@ public class Madlib {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Welcome to the Madlib Maker! Please enter in the different parts of speech to get a great story!");
 
 		System.out.print("Enter an adjective: ");
 		String s1 = input.nextLine();
